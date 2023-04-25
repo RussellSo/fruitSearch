@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  /* TODO */
+height: 100vh; /* to get the gradient smooth*/
+margin: auto;
+padding: 0;
+background: linear-gradient(to right, rgb(248, 182, 51), rgb(226, 159, 35));
+}
+
+input {
+ /* TODO */
+ width: 300px;
+ padding-left: 10px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.search-container {
+ /* TODO */
+ text-align: center;
+ margin-top: 200px;
+
+ 
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+  margin: auto;
+  text-align: left;
+  width: 300px; /* was affect by something, maybe vh and box sizing*/
+  background-color: white;
+  list-style: none;
+  position: relative;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  
+  
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+  padding: 3px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px
+
+}
+ul li:hover {
+  /* TODO */
+  background-color: grey;
+}
+
+input {
+   /* TODO */
+}
